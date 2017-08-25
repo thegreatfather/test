@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>userForm</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="plugins/jquery-3.2.1.min.js"></script>
+	<script src="js/common.js"></script>
+</head>
+<body>
+	<div class="main">
+		<header>
+			<img src="images/logo.png">
+			<div class="head-left">
+				用户管理系统
+			</div>
+			<div class="head-right">
+				<a href="#">帮助</a><a href="#">退出</a>
+			</div>
+		</header>
+		<div class="middle">
+			<div class="middle-left">
+				<li><a href="userList.html" id="forma">用户查询</a></li>
+				<hr>
+				<li>用户新增</li>
+				<hr>
+				<img src="images/logo.png">
+				<div class="user">
+					当前登录用户
+				</div>
+			</div>
+			<div class="middle-right1">
+				<form action="" method="" name="form">
+				<p id="add">新增&编辑用户信息</p>
+				<p>用户名称：<input type="text" name="user" placeholder="请输入您的用户名！" id="width">
+				<p>登录密码：<input type="password" name="password" placeholder="请输入您的密码！" id="width">
+				<p>重复密码：<input type="password" name="repeatPassword" placeholder="请输入您的确认密码！" id="width">
+				<p>电子邮箱：<input type="email" name="email" placeholder="请输入您的邮箱！" id="width">
+				<p>性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;别：<input type="radio" name="sex" value="男">男<input type="radio" name="sex" value="女" >女
+				<p><hr></p>
+				<p><button  type="submit" id="one">保存</button><button id="two">重置</button><button id="three">返回</button>
+				</form>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
